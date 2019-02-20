@@ -1,0 +1,62 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Theater
+ * @version		1.0.0
+ * 
+ * CMSMasters Events Schedule Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Phone Monitor
+/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 768px) {
+  .cmsmasters_events_schedule .cmsmasters_event_schedule_heading_wrap {
+    text-align: center;
+  }
+  .cmsmasters_events_schedule .cmsmasters_event_schedule_heading_wrap .cmsmasters_event_schedule_heading_left {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .cmsmasters_events_schedule .cmsmasters_event_schedule_heading_wrap .cmsmasters_event_schedule_heading_right {
+    display: block;
+    text-align: center;
+  }
+  .cmsmasters_events_schedule .cmsmasters_event_schedule_heading_wrap .cmsmasters_event_schedule_heading_right .cmsmasters_event_schedule_heading {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap_hall {
+    padding: 60px 13% 85px;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap {
+    padding: 0;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap.active_tab .cmsmasters_event_schedule {
+    padding-top: 50px;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap.active_tab .cmsmasters_event_schedule:after {
+    content: none;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap.active_tab .cmsmasters_event_schedule .cmsmasters_event_schedule_cont:before {
+    left: 0;
+    right: 0;
+    top: -50px;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap .cmsmasters_event_schedule .cmsmasters_event_schedule_date {
+    min-height: auto;
+  }
+  #page .cmsmasters_events_schedule .cmsmasters_events_schedule_wrap .cmsmasters_event_schedule * {
+    text-align: center;
+  }
+  .cmsmasters_open_event_schedule .cmsmasters_speaker_image {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
